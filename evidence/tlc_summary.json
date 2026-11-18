@@ -1,0 +1,156 @@
+{
+  "jar_sha256": "e1f11b75c4b5bc4478ba0ac5cb6ae28e40a01b0016bc33e0aa97da22dfdbcd7f",
+  "results": [
+    {
+      "mode": "local_ack",
+      "max_epoch": 1,
+      "generated": 111,
+      "distinct": 62
+    },
+    {
+      "mode": "volatile_receipt",
+      "max_epoch": 1,
+      "generated": 104,
+      "distinct": 59
+    },
+    {
+      "mode": "regressive_policy",
+      "max_epoch": 1,
+      "generated": 267,
+      "distinct": 83
+    },
+    {
+      "mode": "session_bypass",
+      "max_epoch": 1,
+      "generated": 117,
+      "distinct": 56
+    },
+    {
+      "mode": "protected",
+      "max_epoch": 1,
+      "generated": 63,
+      "distinct": 41
+    },
+    {
+      "mode": "local_ack",
+      "max_epoch": 2,
+      "generated": 687,
+      "distinct": 284
+    },
+    {
+      "mode": "volatile_receipt",
+      "max_epoch": 2,
+      "generated": 504,
+      "distinct": 218
+    },
+    {
+      "mode": "regressive_policy",
+      "max_epoch": 2,
+      "generated": 900,
+      "distinct": 215
+    },
+    {
+      "mode": "session_bypass",
+      "max_epoch": 2,
+      "generated": 442,
+      "distinct": 146
+    },
+    {
+      "mode": "protected",
+      "max_epoch": 2,
+      "generated": 201,
+      "distinct": 107
+    },
+    {
+      "mode": "local_ack",
+      "max_epoch": 3,
+      "generated": 1792,
+      "distinct": 650
+    },
+    {
+      "mode": "volatile_receipt",
+      "max_epoch": 3,
+      "generated": 1054,
+      "distinct": 416
+    },
+    {
+      "mode": "regressive_policy",
+      "max_epoch": 3,
+      "generated": 1881,
+      "distinct": 371
+    },
+    {
+      "mode": "session_bypass",
+      "max_epoch": 3,
+      "generated": 733,
+      "distinct": 236
+    },
+    {
+      "mode": "protected",
+      "max_epoch": 3,
+      "generated": 292,
+      "distinct": 155
+    },
+    {
+      "mode": "local_ack",
+      "max_epoch": 5,
+      "generated": 8307,
+      "distinct": 2450
+    },
+    {
+      "mode": "volatile_receipt",
+      "max_epoch": 5,
+      "generated": 3482,
+      "distinct": 1151
+    },
+    {
+      "mode": "regressive_policy",
+      "max_epoch": 5,
+      "generated": 5571,
+      "distinct": 803
+    },
+    {
+      "mode": "session_bypass",
+      "max_epoch": 5,
+      "generated": 1785,
+      "distinct": 476
+    },
+    {
+      "mode": "protected",
+      "max_epoch": 5,
+      "generated": 521,
+      "distinct": 269
+    },
+    {
+      "mode": "local_ack",
+      "max_epoch": 7,
+      "generated": 25384,
+      "distinct": 6446
+    },
+    {
+      "mode": "volatile_receipt",
+      "max_epoch": 7,
+      "generated": 8294,
+      "distinct": 2372
+    },
+    {
+      "mode": "regressive_policy",
+      "max_epoch": 7,
+      "generated": 12201,
+      "distinct": 1379
+    },
+    {
+      "mode": "session_bypass",
+      "max_epoch": 7,
+      "generated": 3393,
+      "distinct": 776
+    },
+    {
+      "mode": "protected",
+      "max_epoch": 7,
+      "generated": 750,
+      "distinct": 383
+    }
+  ],
+  "cross_check": "All 25 reachable-state counts match Python; all five epoch-7 safety outcomes match."
+}
